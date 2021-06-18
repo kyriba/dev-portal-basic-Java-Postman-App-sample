@@ -31,19 +31,17 @@ Open the project folder via command prompt, for example:
 cd basic-Java-Postman-App
 ```
 
-Select the desired Collection in Postman, authenticate through "Get token." Select request and run the request that you want to provide in the Application. 
+Select the desired Collection in Postman, authenticate through "Get token." request and run the request that you want to provide in the Application. 
 
 If the request works, copy code from Postman:
 
 ![code.png](code.png)
 
-![list.png](list.png)
-
-![javaokhhtp.png](javaokhhtp.png)
+In "Code snippet", proceed to the dropdown list with different programming languages, where "cURL" is set by default, and choose "Java - OkHttp" from the list. There, copy the snippet to clipboard:
 
 ![copy.png](copy.png)
 
-Open file basic-Java-Postman-App/src/main/java/App.java and input your piece of code:
+Open the .../src/main/java/App.java file and input your piece of code:
 
 ![input.png](input.png)
 
