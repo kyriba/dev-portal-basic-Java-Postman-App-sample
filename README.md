@@ -22,18 +22,18 @@ Building the API client library requires:
 To copy the API client to your computer copy link of the repository, open Command Prompt, go to the location where project will be copied and execute git clone command:
 
 ```shell
-git clone https://github.com/OlhaLevko/APIRequest.git
+git clone https://github.com/OlhaLevko/basic-Java-Postman-App.git
 ```
 
 Open the project folder via command prompt, for example:
 
 ```shell
-cd dev-portal-Filtering-Sorting-Paginating-sample
+cd basic-Java-Postman-App
 ```
 
 Select the desired Collection in Postman, authenticate through "Get token." Select request and run the request that you want to provide in the Application. 
 
-If the request works,copy code from Postman:
+If the request works, copy code from Postman:
 
 ![code.png](code.png)
 
