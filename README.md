@@ -31,7 +31,7 @@ Copy code from Postman:
 
 ![list.png](list.png)
 
-![javaokhttp.png](javaokhttp.png)
+![javaokhhtp.png](javaokhhtp.png)
 
 ![copy.png](copy.png)
 
