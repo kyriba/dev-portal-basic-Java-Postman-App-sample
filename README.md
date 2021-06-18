@@ -1,4 +1,4 @@
-# APIRequest
+# basic-Java-Postman-App
 
 
 
@@ -25,7 +25,15 @@ To copy the API client to your computer copy link of the repository, open Comman
 git clone https://github.com/OlhaLevko/APIRequest.git
 ```
 
-Copy code from Postman:
+Open the project folder via command prompt, for example:
+
+```shell
+cd dev-portal-Filtering-Sorting-Paginating-sample
+```
+
+Select the desired Collection in Postman, authenticate through "Get token." Select request and run the request that you want to provide in the Application. 
+
+If the request works,copy code from Postman:
 
 ![code.png](code.png)
 
@@ -35,15 +43,9 @@ Copy code from Postman:
 
 ![copy.png](copy.png)
 
-Open file APIRequest\app\src\main\java\com\kyriba\App.java and input your piece of code:
+Open file basic-Java-Postman-App/src/main/java/App.java and input your piece of code:
 
 ![input.png](input.png)
-
-
-Open the project folder via command prompt, for example:
-```shell
-cd dev-portal-Filtering-Sorting-Paginating-sample
-```
 
 
 Run project:

@@ -14,5 +14,5 @@ dependencies {
 }
 
 application {
-    mainClass = 'com.kyriba.App'
+    mainClass = 'App'
 }
