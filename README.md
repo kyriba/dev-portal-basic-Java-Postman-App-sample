@@ -46,7 +46,7 @@ Open the .../src/main/java/App.java file and input your piece of code:
 ![input.png](input.png)
 
 
-Run project:
+Run the project:
 ```shell
 gradle run
 ```
