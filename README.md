@@ -46,7 +46,7 @@ Open the .../src/main/java/App.java file and input your piece of code:
 ![input.png](input.png)
 
 
-Run the project:
+Run the project in Terminal in the root folder of cloned app:
 ```shell
 gradle run
 ```
