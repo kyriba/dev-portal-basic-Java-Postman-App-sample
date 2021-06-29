@@ -5,10 +5,9 @@
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import org.json.JSONObject;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 public class App {
 
@@ -18,22 +17,8 @@ public class App {
         //insert the copied code below this line
 
 
-        printResponse(response);
+
+        System.out.println(new JSONObject(response.body().string()).toString(2));
     }
 
-    private static void printResponse(Response response) throws IOException {
-        System.out.println(Arrays.stream(response.body().string().split(""))
-                .map(ch -> {
-                    if ("{".equals(ch)
-                    ) {
-                        ch = ch.replace("{", "\n{");
-                    }
-                    if (",".equals(ch)
-                    ) {
-                        ch = ch.replace(",", ",\n");
-                    }
-                    return ch;
-                })
-                .collect(Collectors.joining()));
-    }
 }
