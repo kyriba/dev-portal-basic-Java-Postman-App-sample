@@ -1,4 +1,4 @@
-# basic-Java-Postman-App
+#dev-portal-basic-Java-Postman-App-sample
 
 
 
@@ -19,7 +19,7 @@ Building the client library requires:
 
 ## Installation
 
-To copy the API client to your computer copy link of the repository, open Command Prompt, go to the location where project will be copied and execute git clone command:
+To copy the client to your computer copy link of the repository, open Command Prompt, go to the location where project will be copied and execute git clone command:
 
 ```shell
 git clone https://github.com/kyriba/dev-portal-basic-Java-Postman-App-sample.git
