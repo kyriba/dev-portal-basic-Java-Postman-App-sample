@@ -28,7 +28,7 @@ git clone https://github.com/kyriba/dev-portal-basic-Java-Postman-App-sample.git
 Open the project folder via command prompt, for example:
 
 ```shell
-cd basic-Java-Postman-App
+cd dev-portal-basic-Java-Postman-App-sample
 ```
 
 Select the desired Collection in Postman, authenticate through "Get token." request and run the request that you want to provide in the Application. 
