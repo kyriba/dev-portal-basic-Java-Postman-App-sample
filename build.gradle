@@ -10,8 +10,8 @@ repositories {
 
 dependencies {
     implementation 'com.google.guava:guava:30.0-jre'
-    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
     implementation 'org.json:json:20210307'
+    implementation 'com.mashape.unirest:unirest-java:1.4.9'
 }
 
 application {
