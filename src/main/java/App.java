@@ -13,7 +13,7 @@ public class App {
         //insert the copied code below this line
 
 
-        System.out.println(new JSONObject(response.body()).toString(2));
+        System.out.println(new JSONObject(response.getBody()).toString(2));
     }
 
 }
