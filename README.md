@@ -7,9 +7,11 @@
 Building the client library requires:
 1. Java 1.8 or higher [Installation][1]
 2. Gradle [Installation][2]
+3. Postman v8 or higher  [Installation][3]
 
 [1]: https://www.oracle.com/java/technologies/javase-downloads.html
 [2]: https://gradle.org/install/
+[3]: https://www.postman.com/downloads/
 
 > ⚠️  _If you also have JRE installed, create a new environment variable for Java and set a new path for the PATH environment to the JDK folder in "Program Files". Guides for creating and setting a new path: [Windows][3] / [Unix][4] / [MacOS][5]._
 >
@@ -52,3 +54,8 @@ gradle run
 ```
 
 If everything was done accordingly with provided steps, you will get the result printed in the command prompt.
+
+| version | compatible with Java | compatible with Postman |
+|---------|----------------------|-------------------------|
+| 1.0.0   | 1.8 or higher        | v8                      |
+| 1.1.0   | 1.8 or higher        | v9 or higher            |
